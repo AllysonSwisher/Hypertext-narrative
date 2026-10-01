@@ -2,4 +2,32 @@
 
 * {
 	font-family: Arial;
+	box-sizing: border-box;
+}
+
+body{
+	marigin: 0;
+	line-height: 1.4;
+}
+
+body.homepage{
+	background-color:black;
+	color: crimson;
+}
+
+.scene{
+	max-width: 760px;
+    margin: 25px auto;
+	padding: 36px;
+}
+
+.scene img{
+	display: block;
+	width: 100%;
+	max-width: 600px;
+	margin: 30px auto;
+	border-radius: 18px;
+}
+body.homepage p a:hover{
+	color: ghostwhite;
 }
